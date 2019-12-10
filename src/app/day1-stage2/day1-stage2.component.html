@@ -1,0 +1,12 @@
+<h2>Day 1 Stage 2</h2>
+
+<input type="number" (keyup)="testOut = fuelCalc($event.target.value)">
+<p>{{testOut}}</p>
+
+<h4>Output</h4>
+<p>{{output}}</p>
+
+<h4>Input</h4>
+<p *ngFor="let item of input">{{item}}</p>
+
+
