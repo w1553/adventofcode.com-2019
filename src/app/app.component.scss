@@ -1,4 +1,7 @@
 #components {
   display: flex;
   flex-direction: row;
+  & > * {
+    padding: 15px;
+  }
 }
