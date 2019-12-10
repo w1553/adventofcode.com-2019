@@ -1,9 +1,13 @@
-#components {
+nav {
   display: flex;
   flex-direction: row;
-  & > * {
-    padding: 15px;
-    max-width: 150px;
-    overflow: scroll;
+  flex-wrap: wrap;
+  & > p {
+    margin: 5px;
+    background: lightcyan;
+    padding: 3px;
+    &.active {
+      background: green;
+    }
   }
 }
