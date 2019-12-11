@@ -12,6 +12,8 @@ import { Day3Stage2Component } from './day3-stage2/day3-stage2.component';
 import { Day4Stage1Component } from './day4-stage1/day4-stage1.component';
 import { Day4Stage2Component } from './day4-stage2/day4-stage2.component';
 import { Day5Stage1Component } from './day5-stage1/day5-stage1.component';
+import { Day6Stage1Component } from './day6-stage1/day6-stage1.component';
+import { Day6Stage2Component } from './day6-stage2/day6-stage2.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { Day5Stage1Component } from './day5-stage1/day5-stage1.component';
     Day3Stage2Component,
     Day4Stage1Component,
     Day4Stage2Component,
-    Day5Stage1Component
+    Day5Stage1Component,
+    Day6Stage1Component,
+    Day6Stage2Component
   ],
   imports: [
     BrowserModule,
