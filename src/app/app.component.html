@@ -7,6 +7,7 @@
   <p [ngClass]="{'active': selected === 'app-day3-stage2'}" (click)="selected = 'app-day3-stage2'">app-day3-stage2</p>
   <p [ngClass]="{'active': selected === 'app-day4-stage1'}" (click)="selected = 'app-day4-stage1'">app-day4-stage1</p>
   <p [ngClass]="{'active': selected === 'app-day4-stage2'}" (click)="selected = 'app-day4-stage2'">app-day4-stage2</p>
+  <p [ngClass]="{'active': selected === 'app-day5-stage1'}" (click)="selected = 'app-day5-stage1'">app-day5-stage1</p>
 </nav>
 
 <div id='components'>
@@ -21,6 +22,8 @@
 
   <app-day4-stage1 *ngIf="selected === 'app-day4-stage1'"></app-day4-stage1>
   <app-day4-stage2 *ngIf="selected === 'app-day4-stage2'"></app-day4-stage2>
+
+  <app-day5-stage1 *ngIf="selected === 'app-day5-stage1'"></app-day5-stage1>
 
 </div>
 
