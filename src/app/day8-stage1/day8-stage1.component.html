@@ -1,0 +1,27 @@
+<h2>Day 7 Stage 2</h2>
+
+<label>Input</label>
+<textarea (change)="testInput = $event.target.value">{{testInput}}</textarea>
+<br>
+<label>Height</label>
+<input type="number" [(ngModel)]="height">
+<br>
+<label>Width</label>
+<input type="number" [(ngModel)]="width">
+<br>
+<button (click)="run()">Run</button>
+
+<h4>Output</h4>
+<p>{{output}}</p>
+
+
+<div *ngIf="toRender">
+  <table>
+      <tr *ngFor="let row of toRender">
+          <td *ngFor="let cell of row">
+            <p [ngClass]="{black: cell === 0, white: cell === 1, transparent: cell === 2}"></p>
+          </td>
+        </tr>
+  </table>
+</div>
+
